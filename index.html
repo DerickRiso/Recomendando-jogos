@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendação de jogo!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <h1> Recomendação de Game </h1>
+    </header>
+
+    <!-- PRINCIPAL -->
+    <main>
+        <section>
+            <input type="text" placeholder="Digite um filtro" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section id="resultados-pesquisa" class="resultados-pesquisa">
+        </section>
+    
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>2024 - Recomendação de jogo</p>
+    </footer>
+
+    <!-- O Javascript é colocado no final para melhor percepção do usuário no carregamento -->
+    <script src="./dados.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
